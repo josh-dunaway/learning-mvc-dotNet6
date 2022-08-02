@@ -20,7 +20,6 @@ namespace DunawaySolutionsWeb.Controllers
 
         public IActionResult Privacy()
         {
-///test
             return View();
         }
 
