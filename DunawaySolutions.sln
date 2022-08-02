@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DunawaySolutionsWeb", "DunawaySolutionsWeb\DunawaySolutionsWeb.csproj", "{6CDEA033-DE90-4281-B65E-31F749DB2BEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CDEA033-DE90-4281-B65E-31F749DB2BEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CDEA033-DE90-4281-B65E-31F749DB2BEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CDEA033-DE90-4281-B65E-31F749DB2BEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CDEA033-DE90-4281-B65E-31F749DB2BEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC30FEC9-5693-4D3D-9A77-FB5B3A4DBEBB}
+	EndGlobalSection
+EndGlobal
