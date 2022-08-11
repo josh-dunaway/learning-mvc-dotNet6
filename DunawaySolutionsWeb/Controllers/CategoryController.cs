@@ -1,4 +1,5 @@
 ﻿using DunawaySolutionsWeb.Data;
+using DunawaySolutionsWeb.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DunawaySolutionsWeb.Controllers
@@ -14,8 +15,8 @@ namespace DunawaySolutionsWeb.Controllers
 
         public IActionResult Index()
         {
-            var objCategoryList = _db.Categories.ToList();
-            return View();
+            IEnumerable<Category> objCategoryList = _db.Categories;
+            return View(objCategoryList);
         }
     }
 }
